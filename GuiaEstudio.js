@@ -42,9 +42,9 @@ b = c * 2;
 a += b; 
 c = a + (b + c);
 
-// cuanto vale a ? 40
-// cuanto vale b ? 8
-// cuanto vale c? 
+// cuanto vale a ? 41
+// cuanto vale b ? 49
+// cuanto vale c? 61
 
 
 // Imagina que tenemos un perrito. 
@@ -62,7 +62,7 @@ function comidaPerro(){
         document.write('HORA DEL DESAYUNO COMERA CROQUETAS');
     } else if(hora > 9 && hora <=14 ){
         document.write('HORA DEL ALMUERZO COMERA POLLO');
-    }if (hora > 15){
+    } else if (hora > 15){
         document.write('HORA DE LA CENA UN POCO DE LECHE');
     }
 }
@@ -125,3 +125,4 @@ function pruebaCovid(){
         window.alert('Tas salvado mijo')
     }
 }
+/*====================================================================================================== */
